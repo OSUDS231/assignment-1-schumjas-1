@@ -1,0 +1,6 @@
+length = float(input("What is the length of the rectangle? "))
+height = float(input("What is the height of the rectange? "))
+print("Rectangle Summary:")
+print(f"Area: {round((length * height),2)}")
+print(f"Perimeter: {round((2 * length + 2 * height),2)}")
+print(f"Diagonal: {round((length ** 2 + height ** 2) ** (1/2),2)}")
